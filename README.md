@@ -1,1 +1,8 @@
 "# PaymentAPI" 
+"# .Net Core and Entity Framework in VS Code"
+    "## VS scaffolding/code snippets"
+        "dotnet tool install dotnet-aspnet-codegenerator"
+    "## .Net migrations"
+        "dotnet tool install --global dotnet-ef" 
+        "dotnet ef migrations add yourMigrationName"
+        "dotnet ef database update"
